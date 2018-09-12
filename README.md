@@ -15,7 +15,12 @@ git clone git@github.com:Sreevani871/Search.git
 export GOPATH=$HOME/search
 
 # Run 
-cd #HOME/search/src/cmd
+cd $HOME/search/src/cmd
 
 go run main.go
+
+# Run Unit Tests
+cd $HOME/search/src/search
+
+go test -v
 
